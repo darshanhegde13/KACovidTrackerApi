@@ -1,4 +1,7 @@
-tasks:
-  - init: npm install
 image:
   file: .gitpod.Dockerfile
+
+tasks:
+  - init: npm install
+    command: node server.js
+  - command: redis-server
