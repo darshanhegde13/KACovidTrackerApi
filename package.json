@@ -1,0 +1,25 @@
+{
+  "name": "kacovidtrackerapi",
+  "version": "1.0.0",
+  "description": "Karnataka State Covid-19 Quarantine Patient  details",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darshanhegde13/KACovidTrackerApi.git"
+  },
+  "keywords": [
+    "covid-19"
+  ],
+  "author": "Darshan Hegde",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darshanhegde13/KACovidTrackerApi/issues"
+  },
+  "homepage": "https://github.com/darshanhegde13/KACovidTrackerApi#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
