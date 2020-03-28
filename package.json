@@ -2,8 +2,9 @@
   "name": "kacovidtrackerapi",
   "version": "1.0.0",
   "description": "Karnataka State Covid-19 Quarantine Patient  details",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node_modules/.bin/nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +21,17 @@
   },
   "homepage": "https://github.com/darshanhegde13/KACovidTrackerApi#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "ioredis": "*",
+    "lodash": "^4.17.15",
+    "read-excel-file": "^4.0.6",
+    "request": "^2.88.2",
+    "swagger-jsdoc": "^4.0.0",
+    "swagger-ui-express": "^4.1.4",
+    "xlsx": "^0.15.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
